@@ -58,11 +58,20 @@ page.
 1. **[Download GraphView-Setup.exe](https://github.com/sks17/GraphView/releases/latest/download/GraphView-Setup.exe).**
 2. Run it. It installs just for you — **no administrator rights needed** — and
    adds a **GraphView** shortcut to your Start menu.
-3. Launch GraphView. It opens in your browser at a private local address; all
-   data stays on your device.
+3. Launch GraphView. It opens in **its own desktop window** (not a browser
+   tab), and all your data stays on your device.
 
-> Windows SmartScreen may show a "Windows protected your PC" notice for a new
-> publisher. Click **More info → Run anyway** to continue.
+### If Windows shows a security warning
+
+GraphView isn't code-signed yet, so Windows may flag the publisher as unknown.
+It is safe to continue:
+
+- **If the download is blocked** (Edge/Chrome): click the **···** next to the
+  download → **Keep** → **Keep anyway**.
+- **When you run it:** on the *“Windows protected your PC”* screen, click
+  **More info**, then **Run anyway**.
+
+Removing this prompt requires a code-signing certificate — it's on the roadmap.
 
 ## Backups & optional cloud sync
 
